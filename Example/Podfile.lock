@@ -1,0 +1,16 @@
+PODS:
+  - XFReadWriteLocker (0.1.0)
+
+DEPENDENCIES:
+  - XFReadWriteLocker (from `../`)
+
+EXTERNAL SOURCES:
+  XFReadWriteLocker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XFReadWriteLocker: 17cf0827d7875e7bc4c56d1b9f527cbeceb7172c
+
+PODFILE CHECKSUM: e7d3569a87f26013f713760ba3b2f0bc015f30fe
+
+COCOAPODS: 1.6.1

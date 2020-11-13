@@ -1,0 +1,6 @@
+framework module XFReadWriteLocker {
+  umbrella header "XFReadWriteLocker-umbrella.h"
+
+  export *
+  module * { export * }
+}
