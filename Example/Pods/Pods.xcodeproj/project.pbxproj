@@ -9,14 +9,25 @@
 /* Begin PBXBuildFile section */
 		0493C3096E0EC28A3213F0487583F465 /* Pods-XFReadWriteLocker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C095172F6E0AFF782C739606D95A10 /* Pods-XFReadWriteLocker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C69DDCE3C62FE4CAE7F56E4B0AFE4FE /* Pods-XFReadWriteLocker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 583790BDFCF5B4F72DDB892BC891A3E1 /* Pods-XFReadWriteLocker_Tests-dummy.m */; };
-		58B9A392F41C682DCAC2B7BA210544B7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 584EC78D4B73FFBBAD7614B4F79C39FF /* ReplaceMe.m */; };
+		12FC653A6808F89F5230ACFE34D7866C /* XFRWPthread.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F183378C2E8015FAE300B2A2093A36 /* XFRWPthread.m */; };
+		32F3FC4C40EC5789AA50D61014A93FB4 /* XFRWSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A71319D7F5BE22E29D87C6545806D34 /* XFRWSemaphore.m */; };
+		3C701035F078E49B1FBFB7DC10394E45 /* XFRWMutex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3679A08742CF64B51749D37E9D32F1 /* XFRWMutex.m */; };
+		422A0FC2A9F7A9040613578A689EE6FA /* XFRWCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B2E2942B932AD002F6F3B021A8DB397 /* XFRWCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B03D18FC100EF98CC53E7B117E551AC /* XFRWCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811140AAB88CB77A528E99F77F82DF6 /* XFRWCondition.m */; };
+		6F3EDDB70E8ECBCBC99D7F494A252A8A /* XFReadWriteLocker.h in Headers */ = {isa = PBXBuildFile; fileRef = 1232E750594DC0C0A760F1BA9482EFA2 /* XFReadWriteLocker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7361FD1E35E2DD39764686EA98C70029 /* Pods-XFReadWriteLocker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3918765EF8578F4C609B0C4BDDC431 /* Pods-XFReadWriteLocker_Example-dummy.m */; };
+		7B62686864DD9333A84DA934279D5E9C /* XFRWPthread.h in Headers */ = {isa = PBXBuildFile; fileRef = 617504161A11CDA7327E2D80F158CF39 /* XFRWPthread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8819F3DB046BD41B4BEAF0A5B5A4A2EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		8B69C6FBD73103D7E8940D6729B01B39 /* Pods-XFReadWriteLocker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A63C80ABC8C89268F8B96AA50F510D34 /* Pods-XFReadWriteLocker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AA5C16A37B512FB4FCD77C2C13814E6E /* XFReadWriteLocker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAB9737BB1EA81C531788211020E5D5 /* XFReadWriteLocker-dummy.m */; };
+		8C8603ABB37B3CDA619CDF565A034542 /* XFReadWriteLocker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC7DAC42C934EE9DED8DEBA6B7B9FC5 /* XFReadWriteLocker-dummy.m */; };
+		A33322B42F5CCA7166D885370B5677FF /* XFReadWriteLockerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B055B87A242CFC137ED01AF878C4187 /* XFReadWriteLockerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4AE0D1CECF7D91444FE2502B487D9D /* XFRWSemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7AC39782A2E492876783F7DE24C789 /* XFRWSemaphore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BABF589AC4E931C9D3F51F05187058DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C7ABF5E9B77DF834A7282A06C7F4E0DE /* XFReadWriteLocker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E0BEB1B2850EAB0C6F2FC27A543164 /* XFReadWriteLocker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E79A975E26DF3B0AC5F84FA23C081EBD /* XFRWDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 223B377757C801EB57D9A79968ABAD73 /* XFRWDispatch.m */; };
 		EB6AA890E13EA1313829580606BAE3ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EEEB1CA0D2B26BCE561C92439D5C835D /* XFReadWriteLocker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 270FF29D54499D6A8CD11034847617DE /* XFReadWriteLocker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6DA4789457927B69D46B1DA118D3E35 /* XFRWDispatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 801F6CE1A8BF3D17ABC316C3E99A438B /* XFRWDispatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE03A7948DBD3741E3A4E338FE26220E /* XFRWMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = FADB4B547B80120CF4845E1D60298A35 /* XFRWMutex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,38 +48,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01B8D88446A052C72D03037AB404599A /* XFReadWriteLocker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XFReadWriteLocker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0706B71DBE2561DDEB486820EA610DC7 /* XFReadWriteLocker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XFReadWriteLocker.modulemap; sourceTree = "<group>"; };
+		094940603FB9697CA99E76F2F5A73A65 /* XFReadWriteLocker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFReadWriteLocker.xcconfig; sourceTree = "<group>"; };
 		095CA91D632FE81701AC1A2840ABFC65 /* Pods-XFReadWriteLocker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFReadWriteLocker_Tests-Info.plist"; sourceTree = "<group>"; };
+		0A71319D7F5BE22E29D87C6545806D34 /* XFRWSemaphore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XFRWSemaphore.m; sourceTree = "<group>"; };
+		1232E750594DC0C0A760F1BA9482EFA2 /* XFReadWriteLocker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFReadWriteLocker.h; path = XFReadWriteLocker/Classes/XFReadWriteLocker.h; sourceTree = "<group>"; };
+		16A0CF595D407D5057D99C53DF74D680 /* XFReadWriteLocker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XFReadWriteLocker-Info.plist"; sourceTree = "<group>"; };
+		1811140AAB88CB77A528E99F77F82DF6 /* XFRWCondition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XFRWCondition.m; sourceTree = "<group>"; };
 		1870E2CE450EF0B8CA3C963A15F08227 /* Pods-XFReadWriteLocker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFReadWriteLocker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		19F6905E7DCD04F6EF5282EAEEE38D6B /* XFReadWriteLocker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFReadWriteLocker-prefix.pch"; sourceTree = "<group>"; };
+		1AC7DAC42C934EE9DED8DEBA6B7B9FC5 /* XFReadWriteLocker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XFReadWriteLocker-dummy.m"; sourceTree = "<group>"; };
 		1EA824C556CFC39522BFC47434C4BF6B /* Pods-XFReadWriteLocker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFReadWriteLocker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		223B377757C801EB57D9A79968ABAD73 /* XFRWDispatch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XFRWDispatch.m; sourceTree = "<group>"; };
+		270FF29D54499D6A8CD11034847617DE /* XFReadWriteLocker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFReadWriteLocker-umbrella.h"; sourceTree = "<group>"; };
+		2C3679A08742CF64B51749D37E9D32F1 /* XFRWMutex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XFRWMutex.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		36C095172F6E0AFF782C739606D95A10 /* Pods-XFReadWriteLocker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XFReadWriteLocker_Example-umbrella.h"; sourceTree = "<group>"; };
 		3D3918765EF8578F4C609B0C4BDDC431 /* Pods-XFReadWriteLocker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFReadWriteLocker_Example-dummy.m"; sourceTree = "<group>"; };
 		4331B326CED635D6465BFBEA8647EC2F /* Pods-XFReadWriteLocker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFReadWriteLocker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		579B2C4FDD387455382B3A309ECA74CC /* Pods-XFReadWriteLocker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFReadWriteLocker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		583790BDFCF5B4F72DDB892BC891A3E1 /* Pods-XFReadWriteLocker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFReadWriteLocker_Tests-dummy.m"; sourceTree = "<group>"; };
-		584EC78D4B73FFBBAD7614B4F79C39FF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XFReadWriteLocker/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		617504161A11CDA7327E2D80F158CF39 /* XFRWPthread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XFRWPthread.h; sourceTree = "<group>"; };
 		62A829A7E8A35523FE822549A7FDAD96 /* Pods-XFReadWriteLocker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFReadWriteLocker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6A7AC39782A2E492876783F7DE24C789 /* XFRWSemaphore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XFRWSemaphore.h; sourceTree = "<group>"; };
 		72FB93C56916D16DDF9942C0182F8BEF /* Pods_XFReadWriteLocker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XFReadWriteLocker_Tests.framework; path = "Pods-XFReadWriteLocker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74916D0F3681A36E8208291517E9D113 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7BDAC7984B344B18E50AA0E4BBDE658C /* Pods-XFReadWriteLocker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFReadWriteLocker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		88012D0CE6ED341C19649E24A6B914FC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		801F6CE1A8BF3D17ABC316C3E99A438B /* XFRWDispatch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XFRWDispatch.h; sourceTree = "<group>"; };
+		8302E6C98E88F1F001D808A1EC44B0E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8B27A0FF646C60136C40EBCEA9C0E861 /* Pods-XFReadWriteLocker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFReadWriteLocker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8DAF7A3A78EA12F0F3B9A6B3192F8C91 /* XFReadWriteLocker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFReadWriteLocker.xcconfig; sourceTree = "<group>"; };
-		9D84E771FB3ED74B2AAC571C6B326A9D /* XFReadWriteLocker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XFReadWriteLocker.modulemap; sourceTree = "<group>"; };
+		9B055B87A242CFC137ED01AF878C4187 /* XFReadWriteLockerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFReadWriteLockerProtocol.h; path = XFReadWriteLocker/Classes/XFReadWriteLockerProtocol.h; sourceTree = "<group>"; };
+		9B2E2942B932AD002F6F3B021A8DB397 /* XFRWCondition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XFRWCondition.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EAB9737BB1EA81C531788211020E5D5 /* XFReadWriteLocker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XFReadWriteLocker-dummy.m"; sourceTree = "<group>"; };
 		A63C80ABC8C89268F8B96AA50F510D34 /* Pods-XFReadWriteLocker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XFReadWriteLocker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A9E0BEB1B2850EAB0C6F2FC27A543164 /* XFReadWriteLocker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFReadWriteLocker-umbrella.h"; sourceTree = "<group>"; };
-		B581EBDF375D550FAE0A990A95EC60C7 /* XFReadWriteLocker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XFReadWriteLocker-Info.plist"; sourceTree = "<group>"; };
 		BAEA28D8363C0E9A9CEF0F7C438D601C /* Pods-XFReadWriteLocker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFReadWriteLocker_Example-Info.plist"; sourceTree = "<group>"; };
+		C8028E06691FA3C4BF6C8BE1C201FD11 /* XFReadWriteLocker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XFReadWriteLocker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D3A242B677528EA749872CEC29DCDD15 /* Pods-XFReadWriteLocker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XFReadWriteLocker_Example.modulemap"; sourceTree = "<group>"; };
 		D6E3AEBCFBAF86711C80A8CF75B6956A /* XFReadWriteLocker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XFReadWriteLocker.framework; path = XFReadWriteLocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB54D7E4C7B05DA2556EF6FA1DD3B3EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E5CAA4AAE3969CC80406A2B96AC49D1B /* Pods-XFReadWriteLocker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFReadWriteLocker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5FFF7EBFF7DEB747D41A153094C4AB6 /* Pods-XFReadWriteLocker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFReadWriteLocker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E7662788C7F122743F74BD296C5512A8 /* XFReadWriteLocker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFReadWriteLocker-prefix.pch"; sourceTree = "<group>"; };
 		F294682770274B1521F182A8ACBFBBBC /* Pods_XFReadWriteLocker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XFReadWriteLocker_Example.framework; path = "Pods-XFReadWriteLocker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F183378C2E8015FAE300B2A2093A36 /* XFRWPthread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XFRWPthread.m; sourceTree = "<group>"; };
 		F892703C7386CDD37DB4A686EA805A20 /* Pods-XFReadWriteLocker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XFReadWriteLocker_Tests.modulemap"; sourceTree = "<group>"; };
+		FADB4B547B80120CF4845E1D60298A35 /* XFRWMutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XFRWMutex.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,25 +137,15 @@
 			path = "Target Support Files/Pods-XFReadWriteLocker_Tests";
 			sourceTree = "<group>";
 		};
-		220B38BA207508E41C9CB1A7D53E2BE6 /* Pod */ = {
+		33BB0ECEB00C8F3E909FA8191F6D9EE8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				88012D0CE6ED341C19649E24A6B914FC /* LICENSE */,
-				DB54D7E4C7B05DA2556EF6FA1DD3B3EA /* README.md */,
-				01B8D88446A052C72D03037AB404599A /* XFReadWriteLocker.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3E647F17D74FB9D2980BC5C494834FA0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9D84E771FB3ED74B2AAC571C6B326A9D /* XFReadWriteLocker.modulemap */,
-				8DAF7A3A78EA12F0F3B9A6B3192F8C91 /* XFReadWriteLocker.xcconfig */,
-				9EAB9737BB1EA81C531788211020E5D5 /* XFReadWriteLocker-dummy.m */,
-				B581EBDF375D550FAE0A990A95EC60C7 /* XFReadWriteLocker-Info.plist */,
-				19F6905E7DCD04F6EF5282EAEEE38D6B /* XFReadWriteLocker-prefix.pch */,
-				A9E0BEB1B2850EAB0C6F2FC27A543164 /* XFReadWriteLocker-umbrella.h */,
+				0706B71DBE2561DDEB486820EA610DC7 /* XFReadWriteLocker.modulemap */,
+				094940603FB9697CA99E76F2F5A73A65 /* XFReadWriteLocker.xcconfig */,
+				1AC7DAC42C934EE9DED8DEBA6B7B9FC5 /* XFReadWriteLocker-dummy.m */,
+				16A0CF595D407D5057D99C53DF74D680 /* XFReadWriteLocker-Info.plist */,
+				E7662788C7F122743F74BD296C5512A8 /* XFReadWriteLocker-prefix.pch */,
+				270FF29D54499D6A8CD11034847617DE /* XFReadWriteLocker-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/XFReadWriteLocker";
@@ -149,12 +161,51 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		776F2097EB9A6F0BB7298458E791ECC7 /* Development Pods */ = {
+		8FE99906013B1D8B48385F467A1D3E2D /* Mutex */ = {
 			isa = PBXGroup;
 			children = (
-				EC1CF2CA316A26D1CAF7393A2C579615 /* XFReadWriteLocker */,
+				FADB4B547B80120CF4845E1D60298A35 /* XFRWMutex.h */,
+				2C3679A08742CF64B51749D37E9D32F1 /* XFRWMutex.m */,
 			);
-			name = "Development Pods";
+			name = Mutex;
+			path = XFReadWriteLocker/Classes/Mutex;
+			sourceTree = "<group>";
+		};
+		A517F2C921E4A5C111E0F138B6BAFDA0 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8302E6C98E88F1F001D808A1EC44B0E8 /* LICENSE */,
+				74916D0F3681A36E8208291517E9D113 /* README.md */,
+				C8028E06691FA3C4BF6C8BE1C201FD11 /* XFReadWriteLocker.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B85A99771EA590A63883EF18295AFCD8 /* XFReadWriteLocker */ = {
+			isa = PBXGroup;
+			children = (
+				1232E750594DC0C0A760F1BA9482EFA2 /* XFReadWriteLocker.h */,
+				9B055B87A242CFC137ED01AF878C4187 /* XFReadWriteLockerProtocol.h */,
+				FDC92FCE9D59FFF8A46B852E13ED1BB5 /* Condition */,
+				BDF24E7A534D516A2F591F368583107F /* Dispatch */,
+				8FE99906013B1D8B48385F467A1D3E2D /* Mutex */,
+				A517F2C921E4A5C111E0F138B6BAFDA0 /* Pod */,
+				F9E648A996DD610319BC4D2F16A41627 /* Pthread */,
+				E8B027F888D017EA3FB09632757D872E /* Semaphore */,
+				33BB0ECEB00C8F3E909FA8191F6D9EE8 /* Support Files */,
+			);
+			name = XFReadWriteLocker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BDF24E7A534D516A2F591F368583107F /* Dispatch */ = {
+			isa = PBXGroup;
+			children = (
+				801F6CE1A8BF3D17ABC316C3E99A438B /* XFRWDispatch.h */,
+				223B377757C801EB57D9A79968ABAD73 /* XFRWDispatch.m */,
+			);
+			name = Dispatch;
+			path = XFReadWriteLocker/Classes/Dispatch;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -186,7 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				776F2097EB9A6F0BB7298458E791ECC7 /* Development Pods */,
+				D48D9A7F6164723DA45A7BDC1FC4DAFB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				5F4F34DFF59D2734B8AA5DF7A68729D7 /* Products */,
 				E2C5761D2320313ACCC4753576B9BF76 /* Targets Support Files */,
@@ -201,6 +252,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D48D9A7F6164723DA45A7BDC1FC4DAFB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B85A99771EA590A63883EF18295AFCD8 /* XFReadWriteLocker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		E2C5761D2320313ACCC4753576B9BF76 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,25 +269,51 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EC1CF2CA316A26D1CAF7393A2C579615 /* XFReadWriteLocker */ = {
+		E8B027F888D017EA3FB09632757D872E /* Semaphore */ = {
 			isa = PBXGroup;
 			children = (
-				584EC78D4B73FFBBAD7614B4F79C39FF /* ReplaceMe.m */,
-				220B38BA207508E41C9CB1A7D53E2BE6 /* Pod */,
-				3E647F17D74FB9D2980BC5C494834FA0 /* Support Files */,
+				6A7AC39782A2E492876783F7DE24C789 /* XFRWSemaphore.h */,
+				0A71319D7F5BE22E29D87C6545806D34 /* XFRWSemaphore.m */,
 			);
-			name = XFReadWriteLocker;
-			path = ../..;
+			name = Semaphore;
+			path = XFReadWriteLocker/Classes/Semaphore;
+			sourceTree = "<group>";
+		};
+		F9E648A996DD610319BC4D2F16A41627 /* Pthread */ = {
+			isa = PBXGroup;
+			children = (
+				617504161A11CDA7327E2D80F158CF39 /* XFRWPthread.h */,
+				F4F183378C2E8015FAE300B2A2093A36 /* XFRWPthread.m */,
+			);
+			name = Pthread;
+			path = XFReadWriteLocker/Classes/Pthread;
+			sourceTree = "<group>";
+		};
+		FDC92FCE9D59FFF8A46B852E13ED1BB5 /* Condition */ = {
+			isa = PBXGroup;
+			children = (
+				9B2E2942B932AD002F6F3B021A8DB397 /* XFRWCondition.h */,
+				1811140AAB88CB77A528E99F77F82DF6 /* XFRWCondition.m */,
+			);
+			name = Condition;
+			path = XFReadWriteLocker/Classes/Condition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0BEB8615D44165DD46305E9F7A765F2B /* Headers */ = {
+		39D104A3C39F88ABC405576CD899CA3A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7ABF5E9B77DF834A7282A06C7F4E0DE /* XFReadWriteLocker-umbrella.h in Headers */,
+				EEEB1CA0D2B26BCE561C92439D5C835D /* XFReadWriteLocker-umbrella.h in Headers */,
+				6F3EDDB70E8ECBCBC99D7F494A252A8A /* XFReadWriteLocker.h in Headers */,
+				A33322B42F5CCA7166D885370B5677FF /* XFReadWriteLockerProtocol.h in Headers */,
+				422A0FC2A9F7A9040613578A689EE6FA /* XFRWCondition.h in Headers */,
+				F6DA4789457927B69D46B1DA118D3E35 /* XFRWDispatch.h in Headers */,
+				FE03A7948DBD3741E3A4E338FE26220E /* XFRWMutex.h in Headers */,
+				7B62686864DD9333A84DA934279D5E9C /* XFRWPthread.h in Headers */,
+				BA4AE0D1CECF7D91444FE2502B487D9D /* XFRWSemaphore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +340,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84A4308AFD73DA91BE8E455C8DFA0A0C /* Build configuration list for PBXNativeTarget "XFReadWriteLocker" */;
 			buildPhases = (
-				0BEB8615D44165DD46305E9F7A765F2B /* Headers */,
-				55A3AE4C0CA0327027886FAAB8C52722 /* Sources */,
+				39D104A3C39F88ABC405576CD899CA3A /* Headers */,
+				C6B44AEE1C5302A4CE43D2B290A69C89 /* Sources */,
 				70DEF2C03F49CA49E8AC9CE986565F56 /* Frameworks */,
 				C6D10845CC0C1CF5BC774E5E66E3D9E0 /* Resources */,
 			);
@@ -369,12 +454,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55A3AE4C0CA0327027886FAAB8C52722 /* Sources */ = {
+		C6B44AEE1C5302A4CE43D2B290A69C89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58B9A392F41C682DCAC2B7BA210544B7 /* ReplaceMe.m in Sources */,
-				AA5C16A37B512FB4FCD77C2C13814E6E /* XFReadWriteLocker-dummy.m in Sources */,
+				8C8603ABB37B3CDA619CDF565A034542 /* XFReadWriteLocker-dummy.m in Sources */,
+				5B03D18FC100EF98CC53E7B117E551AC /* XFRWCondition.m in Sources */,
+				E79A975E26DF3B0AC5F84FA23C081EBD /* XFRWDispatch.m in Sources */,
+				3C701035F078E49B1FBFB7DC10394E45 /* XFRWMutex.m in Sources */,
+				12FC653A6808F89F5230ACFE34D7866C /* XFRWPthread.m in Sources */,
+				32F3FC4C40EC5789AA50D61014A93FB4 /* XFRWSemaphore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +495,7 @@
 /* Begin XCBuildConfiguration section */
 		0C06432B83F6EB112ABB4FD0CFCA0381 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DAF7A3A78EA12F0F3B9A6B3192F8C91 /* XFReadWriteLocker.xcconfig */;
+			baseConfigurationReference = 094940603FB9697CA99E76F2F5A73A65 /* XFReadWriteLocker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -696,7 +785,7 @@
 		};
 		C577BD53B5AC690FBB079E06A30F2C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DAF7A3A78EA12F0F3B9A6B3192F8C91 /* XFReadWriteLocker.xcconfig */;
+			baseConfigurationReference = 094940603FB9697CA99E76F2F5A73A65 /* XFReadWriteLocker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

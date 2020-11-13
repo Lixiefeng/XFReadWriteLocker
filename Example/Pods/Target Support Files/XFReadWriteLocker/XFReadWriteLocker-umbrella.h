@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "XFRWCondition.h"
+#import "XFRWDispatch.h"
+#import "XFRWMutex.h"
+#import "XFRWPthread.h"
+#import "XFRWSemaphore.h"
+#import "XFReadWriteLocker.h"
+#import "XFReadWriteLockerProtocol.h"
 
 FOUNDATION_EXPORT double XFReadWriteLockerVersionNumber;
 FOUNDATION_EXPORT const unsigned char XFReadWriteLockerVersionString[];
